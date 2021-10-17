@@ -1,9 +1,9 @@
 {
     "common": {
         "name": "viessmannapi",
-        "version": "2.0.4",
+        "version": "2.0.5",
         "news": {
-            "2.0.4": {
+            "2.0.5": {
                 "en": "Fix virtual device detection",
                 "de": "Virtuelle Geräteerkennung für Rate Limit verbessert"
             },
@@ -24,18 +24,18 @@
                 "zh-cn": "首次出版"
             }
         },
-        "title": "Viessmannapi",
+        "title": "ViessmannAPI",
         "titleLang": {
-            "en": "Viessmannapi",
-            "de": "Viessmannapi",
-            "ru": "Viessmannapi",
-            "pt": "Viessmannapi",
-            "nl": "Viessmannapi",
-            "fr": "Viessmannapi",
-            "it": "Viessmannapi",
-            "es": "Viessmannapi",
-            "pl": "Viessmannapi",
-            "zh-cn": "Viessmannapi"
+            "en": "ViessmannAPI",
+            "de": "ViessmannAPI",
+            "ru": "ViessmannAPI",
+            "pt": "ViessmannAPI",
+            "nl": "ViessmannAPI",
+            "fr": "ViessmannAPI",
+            "it": "ViessmannAPI",
+            "es": "ViessmannAPI",
+            "pl": "ViessmannAPI",
+            "zh-cn": "ViessmannAPI"
         },
         "desc": {
             "en": "Adapter for Viessmannapi Devices with Vitoconnect Box",
@@ -50,7 +50,7 @@
             "zh-cn": "带有 Vitoconnect 盒的 Viessmannapi 设备适配器"
         },
         "authors": [
-            "TA2k <tombox2020@gmail.com>"
+            "TA2k <github@blogteil.de>"
         ],
         "keywords": [
             "Viessmannapi"
@@ -60,8 +60,8 @@
         "main": "main.js",
         "icon": "viessmannapi.png",
         "enabled": true,
-        "extIcon": "https://raw.githubusercontent.com/TA2k/ioBroker.viessmannapi/master/admin/viessmannapi.png",
-        "readme": "https://github.com/TA2k/ioBroker.viessmannapi/blob/master/README.md",
+        "extIcon": "https://raw.githubusercontent.com/simonscheib/ioBroker.viessmannapi/master/admin/viessmannapi.png",
+        "readme": "https://github.com/simonscheib/ioBroker.viessmannapi/blob/master/README.md",
         "loglevel": "info",
         "mode": "daemon",
         "type": "climate-control",
@@ -69,11 +69,6 @@
         "connectionType": "cloud",
         "dataSource": "poll",
         "materialize": true,
-        "plugins": {
-            "sentry": {
-                "dsn": "https://d5990d8661fb46988e641bca0e3d4e38@sentry.iobroker.net/147"
-            }
-        },
         "dependencies": [
             {
                 "js-controller": ">=3.0.0"
