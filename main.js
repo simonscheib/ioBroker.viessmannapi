@@ -155,7 +155,7 @@ class Viessmannapi extends utils.Adapter {
             code: code,
             client_id: this.config.client_id,
             code_verifier: code_verifier,
-            redirect_uri: "http://localhost:4200/",
+            redirect_uri: "http://localhost:4200",
         };
 
         await this.requestClient({
