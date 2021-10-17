@@ -1,19 +1,19 @@
 {
   "name": "iobroker.viessmannapi",
-  "version": "2.0.4",
-  "description": "Adapter for Viessmannapi",
+  "version": "2.0.5",
+  "description": "Adapter for Viessmannapi ss",
   "author": {
-    "name": "TA2k",
-    "email": "tombox2020@gmail.com"
+    "name": "simonscheib",
+    "email": "github@blogteil.de"
   },
-  "homepage": "https://github.com/TA2k/ioBroker.viessmannapi",
+  "homepage": "https://github.com/simonscheib/ioBroker.viessmannapi",
   "license": "MIT",
   "keywords": [
     "Viessmannapi"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/TA2k/ioBroker.viessmannapi"
+    "url": "https://github.com/simonscheib/ioBroker.viessmannapi"
   },
   "dependencies": {
     "@iobroker/adapter-core": "^2.5.1",
@@ -54,7 +54,7 @@
     "lint": "eslint"
   },
   "bugs": {
-    "url": "https://github.com/TA2k/ioBroker.viessmannapi/issues"
+    "url": "https://github.com/simonscheib/ioBroker.viessmannapi/issues"
   },
   "readmeFilename": "README.md"
 }
