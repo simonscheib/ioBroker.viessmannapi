@@ -92,7 +92,7 @@ class Viessmannapi extends utils.Adapter {
             scope: "IoT User offline_access",
             code_challenge_method: "S256",
             code_challenge: codeChallenge,
-            redirect_uri: "http://localhost:4200/",
+            redirect_uri: "http://localhost:4200",
         };
 
         const htmlLoginForm = await this.requestClient({
